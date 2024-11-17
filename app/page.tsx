@@ -103,7 +103,7 @@ export default function Page() {
         value={comment}
         readOnly
         style={{ marginTop: '20px', padding: '10px', width: '300px', border: '1px solid #ccc', borderRadius: '4px', backgroundColor: '#f7f9fc', color: '#333' }}
-        placeholder="Server comment"
+        placeholder="서버로부터의 메시지"
       />
     </div>
   );

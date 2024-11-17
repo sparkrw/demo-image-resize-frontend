@@ -50,7 +50,7 @@ export default function Page() {
 
   return (
     <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', height: '100vh', backgroundColor: '#f7f9fc', color: '#333', fontFamily: 'Arial, sans-serif', padding: '20px' }}>
-      <h1 style={{ marginBottom: '20px', fontSize: '36px', fontWeight: 'bold', color: '#0070f3' }}>AWS강의실 이미지 리사이즈 데모</h1>
+      <h1 style={{ marginBottom: '20px', fontSize: '36px', fontWeight: 'bold', color: '#0070f3' }}>AWS강의실 CI/CD 데모 - 이미지 리사이저</h1>
       <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '20px' }}>
         <div style={{ width: '300px', height: '300px', border: '2px dashed #0070f3', display: 'flex', alignItems: 'center', justifyContent: 'center', borderRadius: '8px', backgroundColor: '#fff' }}>
           {imageBase64 ? <img src={imageBase64} alt="Uploaded" style={{ maxWidth: '100%', maxHeight: '100%' }} /> : <span style={{ color: '#999' }}>Original Image</span>}

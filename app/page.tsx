@@ -30,7 +30,7 @@ export default function Page() {
     }
 
     try {
-      const response = await axios.post(process.env.NEXT_PUBLIC_API_URL!, {
+      const response = await axios.post(`${process.env.NEXT_PUBLIC_API_URL!}/resize`, {
         imageBase64,
         width: Number(width),
         height: Number(height),
